@@ -1,0 +1,26 @@
+{
+    "name": "to-do",
+    "version": "1.0.0",
+    "description": "to do list API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Grace-Kabute/todo-list-api.git"
+    },
+    "author": "kabute grace",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Grace-Kabute/todo-list-api/issues"
+    },
+    "homepage": "https://github.com/Grace-Kabute/todo-list-api#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.9.1"
+    }
+}
